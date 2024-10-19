@@ -119,64 +119,50 @@ title: Sugar Labs
 </section>
 
 <!-- By the numbers -->
-<section id="testimonial" class="customPadding5">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="row justify-content-center">
-          <div class="col-md-8 col-md-push-2">
-            <div class="section-title text-center">
-              <h2>Sugar Labs by the numbers</h2>
-              <p class="customParagraphStyle">Sugar Labs, founded in 2008, has had an impact on the lives of many. Here are some of the statistics we are tracking.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-around">
-          <div class="col-md-5 col-md-push-1">
-            <div class="block">
-              <ul class="counter-box clearfix" style="display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0; list-style-type: none;">
-                <li style="flex-basis: 45%; margin-bottom: 20px;">
-                  <div class="block" style="text-align: center;">
-                    <h4>55+</h4>
-                    <span>Mentors helping youth learn in programs like Google Code-In (GCI) and Google Summer of Code</span>
-                  </div>
-                </li>
-                <li style="flex-basis: 45%; margin-bottom: 20px;">
-                  <div class="block" style="text-align: center;">
-                    <h4>1,450+</h4>
-                    <span>Problem-solving tasks completed by students ages 13-17.</span>
-                  </div>
-                </li>
-                <li style="flex-basis: 45%; margin-bottom: 20px;">
-                  <div class="block" style="text-align: center;">
-                    <h4>344+</h4>
-                    <span>Projects for teaching and learning created by Sugar Labs students and teachers.</span>
-                  </div>
-                </li>
-                <li style="flex-basis: 45%; margin-bottom: 20px;">
-                  <div class="block" style="text-align: center;">
-                    <h4>11,531,321+</h4>
-                    <span>Activities Downloaded</span>
-                  </div>
-                </li>
-                <li style="flex-basis: 45%; margin-bottom: 20px;">
-                  <div class="block" style="text-align: center;">
-                    <h4>3,000,000+</h4>
-                   <span>Kids whose lives have been enriched by using the Sugar Learning Platform</span>
-                  </div>
-                </li>
-                <li style="flex-basis: 45%; margin-bottom: 20px;">
-                  <div class="block" style="text-align: center;">
-                    <h4>170</h4>
-                    <span>Languages our educational software has been translated into</span>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+<section class="sugar-labs-numbers">
+  <h2>Sugar Labs by the Numbers</h2>
+  <div class="stats-container">
+    <div class="stat-card">
+      <div class="icon">🧑‍🏫</div>
+      <div class="number">55+</div>
+      <div class="description">Mentors</div>
     </div>
+    <div class="stat-card">
+      <div class="icon">🌎</div>
+      <div class="number">1450+</div>
+      <div class="description">Problem-solving takss</div>
+    </div>
+    <div class="stat-card">
+      <div class="icon">📚</div>
+      <div class="number">344+</div>
+      <div class="description">Projects</div>
+    </div>
+    <div class="stat-card">
+      <div class="icon">🗣️</div>
+      <div class="number">170</div>
+      <div class="description">Languages</div>
+    </div>
+    <div class="stat-card">
+      <div class="icon">⬇️</div>
+      <div class="number">11,531,321+</div>
+      <div class="description">Activities Downloaded</div>
+    </div>
+    <div class="stat-card">
+      <div class="icon">👥</div>
+      <div class="number">3,000,000+</div>
+      <div class="description">Kids Enriched</div>
+    </div>
+    <div class="stat-card">
+      <div class="icon">👥</div>
+      <div class="number">3,000+</div>
+      <div class="description">Kids Enriched</div>
+    </div>
+    <div class="stat-card">
+      <div class="icon">👥</div>
+      <div class="number">1,234</div>
+      <div class="description">Kids Enriched</div>
+    </div>
+    
   </div>
 </section>
 
@@ -187,15 +173,15 @@ title: Sugar Labs
       <div class="col-md-12" >
         <div class="row justify-content-center">
           <div class="col-md-8 col-md-push-2" >
-            <div class="section-title text-center">
+            <div class=" text-center">
               <h2>What we hear</h2>
-	    </div>
-	    <div>
+	          </div>
+	          <div>
               <p>This is what we've heard about Sugar Labs from students, teachers, parents, and growing developers.</p>
-	    </div>
+	        </div>
           </div>
         </div>
-        <div class="row justify-content-around">
+        <div class="row justify-content-center hello">
           <div class="col-md-5 col-md-push-1 customPadding4" >
             <div class="testimonial-carousel customPadding4 borderNone">
               <div id="testimonial-slider2" class="owl-carousel customPadding4">
@@ -267,18 +253,19 @@ title: Sugar Labs
       </div>
     </div>
   </div>
-</section>
-
-<!-- "About us" page redirect section -->
-<section id="intro">
-  <div class="container">
-    <div class="row">
+  <div class="container customPadding5 ">
+    <div class="row ">
       <div class="col-md-12 text-center">
         <a href="{{ site.baseurl }}/about-us"><button type="button" class="btn bt-raised btn-custom bt">Read more about Sugar Labs</button></a>
       </div>
     </div>
   </div>
 </section>
+
+<!-- "About us" page redirect section -->
+<!-- <section id="intro">
+  
+</section> -->
 
 <!-- CTA for newsletter -->
 <!--
@@ -301,134 +288,99 @@ title: Sugar Labs
 
 <!-- Download section -->
 
-<section id="call-to-action">
-  <div class="container customMargin3">
+<section id="experience-sugar">
+  <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 id="try">EXPERIENCE SUGAR</h2>
-        <p><i>Our educational tools can be experienced in a number of ways. Try the one that's best for you.</i></p>
+        <h2 class="text-center">Experience Sugar</h2>
+        <p class="text-center"><i>Our educational tools can be experienced in a number of ways. Try the one that's best for you.</i></p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-4">
-        <div class="border-box boxDownload">
-          <h3 class="customHeaderStyle">Music Blocks</h3>
-          <figure>
-            <img src="{{ site.baseurl }}/assets/mb_logo_ja_alt_2.svg" class="span1 customLogoImageStyle" alt="Music Blocks logo">
-          </figure>
-          <p>Create musical code with the browser-based visual programming language Music Blocks.</p>
-          <ul >
-	    <br>
-            <a href="{{ site.baseurl }}/music-blocks"><button type="button" class="btn bt-raised btn-custom bt customMargin4">Learn about Music Blocks</button></a>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="border-box boxDownload">
-          <h3 class="customHeaderStyle">Turtle Blocks</h3>
-          <figure>
-            <img src="{{ site.baseurl }}/assets/turtle.svg" class="span1 customLogoImageStyle" alt="Turtle Blocks logo">
-          </figure>
-          <p>Explore math and computation through beautiful, artful geometry.</p>
-          <ul >
-	    <br>
-            <a href="{{ site.baseurl }}/turtle-blocks-js"><button type="button" class="btn bt-raised btn-custom bt customMargin4">Learn about Turtle Blocks</button></a>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="border-box boxDownload">
-          <h3 class="customHeaderStyle">Try now on any device with Sugarizer</h3>
-          <figure>
-            <img src="{{ site.baseurl }}/assets/sugarizer.svg" class="span1 customLogoImageStyle" alt="Sugarizer svg">
-          </figure>
-          <p>Get a taste of Sugar with Sugarizer, which opens in your browser with no installation. Alternatively, you may install Sugarizer onto your mobile or desktop device via Google Play or F-Droid (Android), the App Store (iOS), and the Microsoft Store (Windows).</p>
-          <ul >
-	    <br>
-            <a href="{{ site.baseurl }}/sugarizer"><button type="button" class="btn bt-raised btn-custom bt customMargin4">Learn more about Sugarizer</button></a>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="border-box boxDownload">
-          <h3 class="customHeaderStyle">Desktop/laptop bootable drive</h3>
-          <figure>
-            <img src="{{ site.baseurl }}/assets/soas.svg" class="span1 customLogoImageStyle" alt="SOAS svg">
-          </figure>
-          <p>With Sugar on a Stick (SOAS), you can experience the full Sugar Learning Platform on
-            any computer at any time from a bootable thumb drive.</p>
-          <ul >
-	    <br>
-            <a href="{{ site.baseurl }}/booting-soas"><button type="button" class="btn bt-raised btn-custom bt customMargin4">Create bootable drive</button></a>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="border-box boxDownload">
-          <h3 class="customHeaderStyle">Desktop/laptop installation</h3>
-          <figure>
-            <img src="{{ site.baseurl }}/assets/computer.svg" class="span1 customLogoImageStyle" alt="computer svg">
-          </figure>
-          <p>Sugar Learning Platform can be
-            installed as a full operating system on most desktop and laptop computers.</p>
-          <ul >
-	    <br>
-            <a href="{{ site.baseurl }}/booting-soas"><button type="button" class="btn bt-raised btn-custom bt customMargin4">Learn about installation</button></a>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-4">
-	<div class="border-box boxDownload"  >
-          <h3 class="customHeaderStyle">Try Trisquel for full freedom</h3>
-          <figure>
-            <img src="{{ site.baseurl }}/assets/Trisquel-logo.png" class="span1 customLogoImageStyle" alt="Trisquel logo">
-          </figure>
-	  <p>Get all the benefits of a bootable/installation drive on the fully free and well maintained Trisquel distro.</p>
-	  <br>
-          <a href="{{ site.baseurl }}/trisquel"><button type="button" class="btn bt-raised btn-custom bt customMargin4">Learn about Sugar+Trisquel</button></a>
-	</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-	<div class="border-box boxDownload"  >
-          <h3 class="customHeaderStyle">Try Sugar on Raspberry Pi</h3>
-          <figure>
-            <img src="{{ site.baseurl }}/assets/raspberry-pi.svg" class="span1 customLogoImageStyle" alt="Raspberry Pi logo">
-          </figure>
-          <p>The full Sugar environment on a Raspberry Pi (RPi).</p>
-	  <br>
-          <a href="{{ site.baseurl }}/sugar-for-raspberry-pi"><button type="button" class="btn bt-raised btn-custom bt customMargin4">Learn about Sugar on RPi</button></a>
-	</div>
-      </div>
-      <div class="col-md-4">
-	<div class="border-box boxDownload"  >
-          <h3 class="customHeaderStyle">Convenient installation via Flatpak</h3>
-          <figure>
-            <img src="{{ site.baseurl }}/assets/flatpak.svg" class="span1 customLogoImageStyle" alt="Flatpak logo">
-          </figure>
-          <p>Do you use a GNU/Linux? Available for any distribution, individual Sugar activities can be conveniently installed via Flatpak.</p>
-	  <br>
-          <a href="{{ site.baseurl }}/flatpak"><button type="button" class="btn bt-raised btn-custom bt customMargin4">Learn about Sugar via Flatpak</button></a> <!--TODO: Create a new page for more info or link to Trisquel site. -->
-	</div>
-      </div>
-    </div>
-    <!-- If we keep this, it should probably be a "Can't decide?" type button where we walk the user through some sort of decision making process.-->
-    <!--
-        <div class="row">
-          <div class="col-md-12" >
-            <h3 class="text-center">For more details, click the link below!</h3>
-            <a href="https://wiki.sugarlabs.org/go/Get_sugar" ><button type="button" class="btn bt-raised btn-custom bt">
-                <span class="text-center">Get Sugar</span></button></a>
+        <div class="experience-card">
+          <div class="icon-wrapper">
+            <img src="{{ site.baseurl }}/assets/mb_logo_ja_alt_2.svg" alt="Try Sugar icon" class="experience-icon">
           </div>
-        </div>-->
-	<div>
-	  <br>
-	  <a href="https://v4.activities.sugarlabs.org/"><button type="button" class="btn bt-raised btn-custom bt">Sugar Activity Library</button>
-          </a>
-	</div>
+          <h3>Music Blocks</h3>
+          <p>Create musical code with the browser-based visual programming language.</p>
+          <a href="#" class="learn-more">Learn More <span>&rarr;</span></a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="experience-card">
+          <div class="icon-wrapper">
+            <img src="{{ site.baseurl }}/assets/turtle.svg" alt="Join Community icon" class="experience-icon">
+          </div>
+          <h3>Turtle Blocks</h3>
+          <p>Explore math and computation through beautiful, artful geometry.</p>
+          <a href="#" class="learn-more">Learn More <span>&rarr;</span></a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="experience-card">
+          <div class="icon-wrapper">
+            <img src="{{ site.baseurl }}/assets/sugarizer.svg" alt="Contribute Ideas icon" class="experience-icon">
+          </div>
+          <h3>Sugarizer</h3>
+          <p>Try Sugarizer in your browser or install on mobile/desktop.</p>
+          <a href="#" class="learn-more">Learn More <span>&rarr;</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="experience-card">
+          <div class="icon-wrapper">
+            <img src="{{ site.baseurl }}/assets/soas.svg" alt="Develop Activities icon" class="experience-icon">
+          </div>
+          <h3>Bootable drive</h3>
+          <p>Experience Sugar anytime on any computer using a bootable drive.</p>
+          <a href="#" class="learn-more">Learn More <span>&rarr;</span></a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="experience-card">
+          <div class="icon-wrapper">
+            <img src="{{ site.baseurl }}/assets/computer.svg" alt="Contribute Code icon" class="experience-icon">
+          </div>
+          <h3>Desktop installation</h3>
+          <p>Install Sugar Learning Platform as OS on desktop or laptop.</p>
+          <a href="#" class="learn-more">Learn More <span>&rarr;</span></a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="experience-card">
+          <div class="icon-wrapper">
+            <img src="{{ site.baseurl }}/assets/Trisquel-logo.png" alt="Become a Champion icon" class="experience-icon">
+          </div>
+          <h3>Trisquel OS</h3>
+          <p>Experience a fully free, maintained OS with installation options.</p>
+          <a href="#" class="learn-more">Learn More <span>&rarr;</span></a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="experience-card">
+          <div class="icon-wrapper">
+            <img src="{{ site.baseurl }}/assets/raspberry-pi.svg" alt="Try Sugar icon" class="experience-icon">
+          </div>
+          <h3>Sugar Pi</h3>
+          <p>Access the full Sugar environment on a Raspberry Pi.</p>
+          <a href="#" class="learn-more">Learn More <span>&rarr;</span></a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="experience-card">
+          <div class="icon-wrapper">
+            <img src="{{ site.baseurl }}/assets/flatpak.svg" alt="Try Sugar icon" class="experience-icon">
+          </div>
+          <h3>Flatpak Installation</h3>
+          <p>Install Sugar activities on any GNU/Linux distribution using Flatpak.</p>
+          <a href="#" class="learn-more">Learn More <span>&rarr;</span></a>
+        </div>
+      </div>
+      
+    </div>
   </div>
 </section>
 

@@ -284,8 +284,64 @@ font header .navbar-default .navbar-nav li a:hover {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
 #donation button:hover {
   background-color: #ffbf00;
+}
+.sugar-labs-numbers {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.sugar-labs-numbers h2 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stat-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+
+.number {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #4a4a4a;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-size: 1em;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .stats-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
 }
 #donation a {
   color: #3498db;
@@ -317,6 +373,12 @@ font header .navbar-default .navbar-nav li a:hover {
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+}
+
+.hello{
+  background-color:#6b6775;
+  border-radius: 10px;
+  padding: 2rem;
 }
 #service .activity-button:hover {
   background-color: #5a566a;
@@ -435,6 +497,76 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #655E7A;
   color: #fff;
   padding: 10px 20px;
+}
+#experience-sugar {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+#experience-sugar h2 {
+  margin-bottom: 40px;
+  color: #333;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.experience-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-wrapper {
+  width: 120px;
+  height: 120px;
+  background-color: #f0e6ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.experience-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.experience-card h3 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.experience-card p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.learn-more {
+  color: #6200ee;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.learn-more:hover {
+  color: #3700b3;
+}
+
+.learn-more span {
+  margin-left: 5px;
 }
 /*--
   content Start
